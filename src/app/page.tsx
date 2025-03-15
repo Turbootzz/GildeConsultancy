@@ -1,23 +1,29 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Header from "@/components/ui/Header";
 import HeroSection from "../components/HeroSection";
-
+import Information from "@/components/Information";
 export default function Home() {
 	return (
-		<main className="relative min-h-screen">
-			{/* Background Image */}
-			<div className="absolute inset-0 z-0">
-				<Image
-					src="/background.jpg"
-					alt="Background"
-					layout="fill"
-					objectFit="cover"
-					priority
-				/>
-			</div>
+		<main className="relative">
+			<div className="relative">
 
-			<Header />
-			<HeroSection />
+				<div className="absolute inset-0 z-0">
+					<Image
+						src="/images/background.webp"
+						alt="Background"
+						layout="fill"
+						objectFit="cover"
+						priority
+					/>
+				</div>
+				
+				<Header />
+				<HeroSection />
+			</div>
+			
+			<div className="bg-white">
+				<Information />
+			</div>
 		</main>
 	);
 }
