@@ -11,17 +11,13 @@ const Navbar = () => {
 			<div className="flex items-center">
 				<Link href="/">
 					<div className="flex cursor-pointer items-center">
-						<div className="relative h-12 w-12">
+						<div className="relative h-12 w-64">
 							<Image
-								src="/logo.svg"
+								src="/images/logo.webp"
 								alt="Gilde Consultancy Logo"
 								layout="fill"
 								objectFit="contain"
 							/>
-						</div>
-						<div className="ml-2">
-							<h1 className="text-xl font-medium text-white">Gilde Consultancy</h1>
-							<p className="text-xs text-white">when you expect results</p>
 						</div>
 					</div>
 				</Link>
