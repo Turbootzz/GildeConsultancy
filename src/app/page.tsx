@@ -21,7 +21,7 @@ export default function Home() {
 				<HeroSection />
 			</div>
 			
-			<div className="bg-white">
+			<div className="container mx-auto px-4">
 				<Information />
 			</div>
 		</main>

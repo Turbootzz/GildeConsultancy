@@ -11,7 +11,7 @@ const Navbar = () => {
 			<div className="flex items-center">
 				<Link href="/">
 					<div className="flex cursor-pointer items-center">
-						<div className="relative h-12 w-64">
+						<div className="relative h-12 w-40 lg:w-64">
 							<Image
 								src="/images/logo.webp"
 								alt="Gilde Consultancy Logo"
